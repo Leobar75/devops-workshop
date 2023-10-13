@@ -14,7 +14,7 @@ export const addNumber = (a,b) => {
 
 export function setupAdder(element) {
   const setCounter = (count) => {
-    counter = addNumber(count,5)
+    counter = addNumber(count, 10)
     element.innerHTML = `count is ${counter}`
   }
   element.addEventListener("click", () => setCounter(counter))

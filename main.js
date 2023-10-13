@@ -16,7 +16,7 @@ document.querySelector("#app").innerHTML = `
       <button id="counter" type="button"></button>
     </div>
     <div class="card" style="display:flex;flex-direction:column">
-      <label style="margin-bottom:10px">Add 5</label>
+      <label style="margin-bottom:10px">Add 10</label>
       <button id="adder" type="button">Add</button>
     </div>
     <p class="read-the-docs">
