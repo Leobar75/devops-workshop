@@ -9,7 +9,7 @@ export function setupCounter(element) {
 }
 
 export const addNumber = (a,b) => {
-  return a - b;
+  return a + b;
 }
 
 export function setupAdder(element) {
